@@ -63,7 +63,8 @@
             // &kp HOME         &kp A          &kp S    &kp D          &kp F       &kp G                                                                         &kp H   &kp J    &kp K      &kp L       &kp RIGHT_BRACKET  &kp C_MUTE
             // &kp END          &kp Z          &kp X    &kp C          &kp V       &kp B      &kp LALT   &none      &kp F6     &kp F7     &none      &kp RALT    &kp N   &kp M    &kp COMMA  &kp PERIOD  &kp SLASH          &none
             // &kp C_AL_LOCK    &kp CAPS_LOCK  &kp TAB  &kp BACKSPACE  &kp DELETE             &kp SPACE  &kp LCTRL  &kp LMETA  &mo UPPER  &mo LOWER  &kp LSHIFT          &kp ESC  &kp ENTER  &kp PG_UP   &kp PG_DN          &mo MAGIC
-            &none         &none         &none         &none         &none                                                                                                           &none         &none         &none         &none         &none       
+
+            &kp F1        &kp F2        &kp F3        &kp F4        &kp F5                                                                                                                        &kp F8        &kp F9        &kp F10       &kp F11       &kp F12       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
@@ -74,7 +75,7 @@
 
         lower_layer {
             bindings = <
-            &none         &none         &none         &none         &none                                                                                                           &none         &none         &none         &none         &none       
+            &none         &none         &none         &none         &none                                                                                                                         &none         &none         &none         &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
@@ -86,7 +87,7 @@
 
         upper_layer {
             bindings = <
-            &none         &none         &none         &none         &none                                                                                                           &none         &none         &none         &none         &none       
+            &none         &none         &none         &none         &none                                                                                                                         &none         &none         &none         &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
