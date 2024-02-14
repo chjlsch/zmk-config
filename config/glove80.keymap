@@ -59,9 +59,9 @@
             &kp F2        &kp F5        &kp F10       &kp F11       &kp F12                                                                                                                       &none         &none         &none         &none         &none       
             &none         &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                                                                                            &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &none       
             &none         &kp Q         &kp W         &kp E         &kp R         &kp T                                                                                             &kp Z         &kp U         &kp I         &kp O         &kp P         &none       
-            &none         &kp A         &kp S         &kp D         &kp F         &kp G                                                                                             &kp H         &kp J         &kp K         &kp L         &kp RALT(Z)   &none       
-            &none         &kp LSHIFT    &kp X         &kp C         &kp V         &kp B         &kp BSPC      &kp ESC       &kp LALT      &none         &none         &kp TAB       &kp N         &kp M         &kp Y         &kp RALT(P)   &kp RALT(Q)   &none       
-            &mo MAGIC     &none         &none         &kp DEL       &kp ENTER                   &kp SPACE     &kp LCTRL     &kp LMETA     &none         &none         &kp LSHIFT                  &kp HOME      &kp END       &none         &none         &none       
+            &none         &kp A         &kp S         &kp D         &kp F         &kp G                                                                                             &kp H         &kp J         &kp K         &kp L         &kp RA(Z)     &none       
+            &none         &kp LSHIFT    &kp X         &kp C         &kp V         &kp B         &kp BSPC      &kp ESC       &kp LALT      &none         &none         &kp TAB       &kp N         &kp M         &kp Y         &kp RA(P)     &kp RA(Q)     &none       
+            &mo MAGIC     &none         &none         &kp DEL       &kp ENTER                   &kp SPACE     &kp LCTRL     &kp LMETA     &none         &none         &kp LSHIFT                  &kp HOME      &kp END       &none         &none         &mo MAGIC       
             >;
         };
 
