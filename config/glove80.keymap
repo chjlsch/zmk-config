@@ -16,8 +16,8 @@
 #define MAGIC 1
 #define BLUE 2
 #define GREEN 3
-#define ROSE 4
-#define BRONCE 5
+#define BRONCE 4
+#define ROSE 5
 
 / {
     macros {
