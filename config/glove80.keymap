@@ -105,9 +105,9 @@
             bindings = <
             &none         &none         &none         &none         &none                                                                                                                         &none         &none         &none         &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
-            &none         &none         &none         &none         &kp RA(R)     &kp RA(LS(R))                                                                                     &none         &kp PG_UP     &kp UP        &kp PG_DN     &none         &none       
+            &none         &none         &none         &none         &none         &none                                                                                             &none         &kp PG_UP     &kp UP        &kp PG_DN     &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none         &none       
-            &none         &trans        &none         &kp RA(C)     &none         &none         &trans        &trans        &trans        &trans        &trans        &trans        &none         &none         &none         &none         &none         &none       
+            &none         &trans        &none         &none         &none         &none         &trans        &trans        &trans        &trans        &trans        &trans        &none         &none         &none         &none         &none         &none       
             &trans        &trans        &trans        &trans        &trans                      &trans        &trans        &trans        &trans        &trans        &trans                      &trans        &trans        &trans        &trans        &trans      
             >;
         };
