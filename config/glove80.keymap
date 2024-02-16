@@ -83,9 +83,9 @@
             bindings = <
             &none         &none         &none         &none         &none                                                                                                                         &none         &none         &none         &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
-            &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
-            &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
-            &none         &trans        &none         &none         &none         &none         &trans        &trans        &trans        &trans        &trans        &trans        &none         &none         &none         &none         &none         &none       
+            &none         &none         &kp LS(MINUS) &LS(SEMI)     &kp SEMI      &none                                                                                             &none         &kp COMMA     &kp DOT       &kp MINUS     &none         &none       
+            &none         &none         &kp BLSH      &kp LBKT      &kp LS(N9)    &none                                                                                             &none         &kp LS(N0)    &kp RBKT      &kp LS(N5)    &none         &none       
+            &none         &trans        &kp LS(N1)    &kp LS(COMMA) &kp LS(LBKT)  &none         &trans        &trans        &trans        &trans        &trans        &trans        &none         &kp LS(RBKT)  &kp LS(DOT)   &kp LS(FSLH)  &none         &none       
             &trans        &trans        &trans        &trans        &trans                      &trans        &trans        &trans        &trans        &trans        &trans                      &trans        &trans        &trans        &trans        &trans      
             >;
         };
@@ -94,25 +94,25 @@
             bindings = <
             &none         &none         &none         &none         &none                                                                                                                         &none         &none         &none         &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
-            &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
-            &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
-            &none         &trans        &none         &none         &none         &none         &trans        &trans        &trans        &trans        &trans        &trans        &none         &none         &none         &none         &none         &none       
-            &trans        &trans        &trans        &trans        &trans                      &trans        &trans        &trans        &trans        &trans        &trans                      &trans        &trans        &trans        &trans        &trans      
-            >;
-        };
-
-        rose_layer {
-            bindings = <
-            &none         &none         &none         &none         &none                                                                                                                         &none         &none         &none         &none         &none       
-            &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
-            &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
-            &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
-            &none         &trans        &none         &none         &none         &none         &trans        &trans        &trans        &trans        &trans        &trans        &none         &none         &none         &none         &none         &none       
+            &none         &none         &kp GRAVE     &kp APOS      &kp LS(APOS)  &none                                                                                             &none         &kp LS(EQUAL) &kp LS(N8)    &none         &none         &none       
+            &none         &none         &kp RA(LS(S)) &kp LS(N2)    &kp LS(N4)    &none                                                                                             &none         &kp LS(N3)    &kp EQUAL     &none         &none         &none       
+            &none         &trans        &none         &kp TILDE     &kp FSLH      &none         &trans        &trans        &trans        &trans        &trans        &trans        &none         &kp LS(N7)    &kp LS(BSLH)  &none         &none         &none       
             &trans        &trans        &trans        &trans        &trans                      &trans        &trans        &trans        &trans        &trans        &trans                      &trans        &trans        &trans        &trans        &trans      
             >;
         };
 
         bronce_layer {
+            bindings = <
+            &none         &none         &none         &none         &none                                                                                                                         &none         &none         &none         &none         &none       
+            &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
+            &none         &none         &none         &none         &kp RA(R)     &kp RA(LS(R))                                                                                     &none         &kp PG_UP     &kp UP        &kp PG_DN     &none         &none       
+            &none         &none         &none         &none         &none         &none                                                                                             &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none         &none       
+            &none         &trans        &none         &kp RA(C)     &none         &none         &trans        &trans        &trans        &trans        &trans        &trans        &none         &none         &none         &none         &none         &none       
+            &trans        &trans        &trans        &trans        &trans                      &trans        &trans        &trans        &trans        &trans        &trans                      &trans        &trans        &trans        &trans        &trans      
+            >;
+        };
+
+        rose_layer {
             bindings = <
             &none         &none         &none         &none         &none                                                                                                                         &none         &none         &none         &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
