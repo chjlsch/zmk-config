@@ -14,9 +14,10 @@
 // layers
 #define DEFAULT 0
 #define MAGIC 1
-#define BLUE 2
-#define GREEN 3
-#define BRONCE 4
+#define SYM1 2
+#define SYM2 3
+#define EXTRA 4
+// #define NUM 5
 
 / {
     macros {
@@ -58,12 +59,12 @@
 
         default_layer {
             bindings = <
-            &kp F2        &kp F5        &kp F10       &kp F11       &kp F12                                                                                                                       &kp PSCRN     &kp K_CALC    &kp C_MUTE    &kp C_VOL_UP  &kp C_VOL_DN
+            &none         &kp ESC       &kp LSLCK     &kp BACK      &kp FORWARD                                                                                                                   &kp PSCRN     &kp K_CALC    &kp C_MUTE    &kp C_VOL_UP  &kp C_VOL_DN
             &none         &kp N1        &kp N2        &kp N3        &kp N4        &kp N5                                                                                            &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &none       
             &none         &kp Q         &kp W         &kp E         &kp R         &kp T                                                                                             &kp Z         &kp U         &kp I         &kp O         &kp P         &none       
             &none         &kp A         &kp S         &kp D         &kp F         &kp G                                                                                             &kp H         &kp J         &kp K         &kp L         &kp RA(Y)     &none       
-            &none         &kp LSHIFT    &kp X         &kp C         &kp V         &kp B         &kp BSPC      &kp ESC       &kp LALT      &kp LALT      &mo BRONCE    &kp TAB       &kp N         &kp M         &kp Y         &kp RA(P)     &kp RA(Q)     &none       
-            &mo MAGIC     &none         &none         &kp DEL       &kp ENTER                   &kp SPACE     &kp LCTRL     &kp LMETA     &mo GREEN     &mo BLUE      &kp LSHIFT                  &kp HOME      &kp END       &none         &none         &mo MAGIC       
+            &none         &kp LSHIFT    &kp X         &kp C         &kp V         &kp B         &kp BSPC      &kp ESC       &kp LALT      &kp RALT     &mo EXTRA    &kp TAB         &kp N         &kp M         &kp Y         &kp RA(P)     &kp RA(Q)     &none       
+            &mo MAGIC     &none         &none         &kp DEL       &kp ENTER                   &kp SPACE     &kp LCTRL     &kp LMETA     &mo SYM2     &mo SYM1     &kp LSHIFT                    &kp HOME      &kp END       &none         &none         &mo MAGIC       
             >;
         };
 
@@ -78,7 +79,7 @@
             >;
         };
 
-        blue_layer {
+        sym1_layer {
             bindings = <
             &none         &none         &none         &none         &none                                                                                                                         &none         &none         &none         &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
@@ -89,23 +90,23 @@
             >;
         };
 
-        green_layer {
+        sym2_layer {
             bindings = <
             &none         &none         &none         &none         &none                                                                                                                         &none         &none         &none         &none         &none       
             &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
-            &none         &none         &kp GRAVE     &kp APOS      &kp LS(APOS)  &none                                                                                             &none         &kp LS(EQUAL) &kp LS(N8)    &kp LS(N6)       &none         &none       
+            &none         &none         &kp GRAVE     &kp APOS      &kp LS(APOS)  &none                                                                                             &none         &kp LS(EQUAL) &kp LS(N8)    &kp LS(N6)    &none         &none       
             &none         &none         &kp RA(LS(S)) &kp LS(N2)    &kp LS(N4)    &none                                                                                             &none         &kp LS(N3)    &kp EQUAL     &none         &none         &none       
             &none         &trans        &none         &kp TILDE     &kp FSLH      &none         &trans        &trans        &trans        &trans        &trans        &trans        &none         &kp LS(N7)    &kp LS(BSLH)  &none         &none         &none       
             &trans        &trans        &trans        &trans        &trans                      &trans        &trans        &trans        &trans        &trans        &trans                      &trans        &trans        &trans        &trans        &trans      
             >;
         };
 
-        bronce_layer {
+        extra_layer {
             bindings = <
             &none         &none         &none         &none         &none                                                                                                                         &none         &none         &none         &none         &none       
-            &none         &none         &none         &none         &none         &none                                                                                             &none         &none         &none         &none         &none         &none       
-            &none         &none         &none         &none         &none         &none                                                                                             &none         &kp PG_UP     &kp UP        &kp PG_DN     &none         &none       
-            &none         &none         &none         &none         &none         &none                                                                                             &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none         &none       
+            &none         &kp F1        &kp F2        &kp F3        &kp F4        &none                                                                                             &none         &none         &none         &none         &none         &none       
+            &none         &kp F5        &kp F6        &kp F7        &kp F8        &none                                                                                             &none         &kp PG_UP     &kp UP        &kp PG_DN     &none         &none       
+            &none         &kp F9        &kp F10       &kp F11       &kp F12       &none                                                                                             &none         &kp LEFT      &kp DOWN      &kp RIGHT     &none         &none       
             &none         &trans        &none         &none         &none         &none         &trans        &trans        &trans        &trans        &trans        &trans        &none         &none         &none         &none         &none         &none       
             &trans        &trans        &trans        &trans        &trans                      &trans        &trans        &trans        &trans        &trans        &trans                      &trans        &trans        &trans        &trans        &trans      
             >;
